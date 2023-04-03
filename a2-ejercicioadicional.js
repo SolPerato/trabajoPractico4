@@ -29,3 +29,7 @@ let persona = {
 }
 
 persona.presentarPersona();
+persona.buscarHobbie();
+persona.borrarHobbie(" Los deportes ,");
+persona.agregarHobbie("Bailar , ");
+persona.presentarPersona();
