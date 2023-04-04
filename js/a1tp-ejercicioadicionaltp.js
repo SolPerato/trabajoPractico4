@@ -1,16 +1,18 @@
-function persona(nombre, edad , Profecion){
+class persona{
+constructor(nombre, edad , Profecion){
         this.nombre=nombre;
         this.edad=edad;
         this.Profecion=Profecion;
-     
+       }
 
-     this.saludar = function(){
-            console.log("Hola , soy " + nombre + " Mi edad es: " + edad +" años "+ " Mi Profecion es: "+ Profecion);
+     saludar(){
+            console.log("Hola , soy " + this.nombre + " Mi edad es: " + this.edad +" años "+ " Mi Profecion es: "+ this.Profecion);
      }
      
-     this.Despedirse = function(){
+     Despedirse(){
         console.log("Hasta la proxima, un gusto conocerte :) ");
  }
+
 }
 
 let obejtopersona = new persona("Sol Perato ", 22 , "Estudiante");
