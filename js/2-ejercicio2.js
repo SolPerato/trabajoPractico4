@@ -16,3 +16,4 @@ let cuenta = {
 cuenta.ingresar(10);
 cuenta.extraer(5);
 cuenta.informar();
+
